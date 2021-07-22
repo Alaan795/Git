@@ -1,0 +1,25 @@
+/* tienda */
+#tablaPrincipal{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width:$width- 200px;
+    margin: 0 auto;
+}
+table{
+    
+    text-align: center;
+    border: none;
+}
+th, td{
+    border:none;
+    padding: 20px;
+}
+thead{
+    background-color:$colorCeleste;
+}
+.tienda{
+    color: $colorNegro;
+}

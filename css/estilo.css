@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 10px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f3f3f3+50,ededed+51,ffffff+100;White+Gloss+%232 */
+  background: white;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, white 0%, #f3f3f3 50%, #ededed 51%, white 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, white 0%, #f3f3f3 50%, #ededed 51%, white 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, white 0%, #f3f3f3 50%, #ededed 51%, white 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+  /* IE6-9 */
+  font-family: 'Roboto', sans-serif; }
+
+/* footer */
+footer {
+  position:fixed;
+  width: 100%;
+  bottom:0;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d6f9ff+0,9ee8fa+100;Blue+3D */
+  background: #d6f9ff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #d6f9ff 0%, #9ee8fa 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #d6f9ff 0%, #9ee8fa 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #d6f9ff 0%, #9ee8fa 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6f9ff', endColorstr='#9ee8fa',GradientType=0 );
+  /* IE6-9 */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+.footer__socialImg {
+    width: 24px; 
+}
+.footer__social {
+    display: inline-block; 
+}
+
+/* header */
+header {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d6f9ff+0,9ee8fa+100;Blue+3D */
+  background: #d6f9ff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #d6f9ff 0%, #9ee8fa 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #d6f9ff 0%, #9ee8fa 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #d6f9ff 0%, #9ee8fa 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6f9ff', endColorstr='#9ee8fa',GradientType=0 );
+  /* IE6-9 */ 
+}
+
+nav {
+  display: flex;
+  align-items: center; 
+}
+
+.imgLogo {
+  width: 100px; 
+}
+
+.logo{
+    position: relative;
+}
+
+ul {
+  display: flex;
+  list-style: none; 
+}
+
+li {
+  padding: 10px;
+  list-style: none; }
+
+.paginaActiva {
+  color: #FFFFFF; 
+}
+
+a:hover {
+  color: #FFFFFF; }
+
+/* index */
+.imgParrafo {
+  width: 150px; }
+
+.parrafo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  background: linear-gradient(to top, #00FFFF, #FFFFFF); }
+
+.bienvenidos {
+  font-size: 3rem; }
+
+main {
+  width: 500px;
+  margin: 0 auto; }
+
+/* tienda */
+#tablaPrincipal {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 300px; }
+
+table {
+  text-align: center;
+  border: none; }
+
+th, td {
+  border: none;
+  padding: 20px; }
+
+thead {
+  background-color: #00FFFF; }
+
+.tienda {
+  color: #0000; }
+
+/* galeria */
+.GaleriaJugadores {
+  width: 90px;
+  max-width: 80vmax;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat("4,1fr");
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas: "falcao ferrao vaporaki stazzone"
+ "gomez ricardinho bateria lozano";
+  gap: 10px;
+  justify-content: center; }
+
+.GaleriaJugadores__GaleriaJugadores2 {
+  width: 100%;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center; }
+
+.GaleriaJugadores__GaleriaJugadores2 :hover {
+  transform: scale(1.5, 1.5); }
+
+/* cuenta-contacto */
+.enviado:hover {
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  background-color: #000000; }
+
+.registrate{
+  text-align: center;
+}
+.consulta{
+  text-align: center;
+}
+.cContacto{
+  background-color:#d6f9ff;
+}
+
+/*Nosotros*/
+
+.imgNosotros{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pNosotros{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+}
+.imgNosotros2 {
+  width: 300px; 
+}
+
+h1 {
+  color: #000000; }
+
+h2 {
+  color: #000000; }
+
+img {
+  width: 100px; }
+
+a {
+  color: #000000;
+  text-decoration: none; }
+
+/* mobile first */
+@media only screen and (min-width: 576px) {
+  .GaleriaJugadores {
+    width: 50px; } }
+
+@media only screen and (min-width: 768px) {
+  .GaleriaJugadores {
+    width: 25px; } }

@@ -1,0 +1,22 @@
+/* galeria */
+.GaleriaJugadores{
+    @include medidas(90px, 80vmax, 20px auto );
+    display: grid;
+    grid-template-columns: repeat("4,1fr");
+    grid-template-rows: repeat(2,auto);
+    grid-template-areas:
+    "falcao ferrao vaporaki stazzone"
+    "gomez ricardinho bateria lozano";
+    gap: 10px;
+    justify-content: center;
+}
+.GaleriaJugadores2{
+    width:($width/2)-150px;
+    height:30vh;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+}
+.GaleriaJugadores2 :hover{
+    transform: scale(1.5,1.5);
+}

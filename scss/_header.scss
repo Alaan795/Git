@@ -1,0 +1,40 @@
+/* header */
+
+header{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d6f9ff+0,9ee8fa+100;Blue+3D */
+background: rgb(214,249,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(214,249,255,1) 0%, rgba(158,232,250,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(214,249,255,1) 0%,rgba(158,232,250,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(214,249,255,1) 0%,rgba(158,232,250,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6f9ff', endColorstr='#9ee8fa',GradientType=0 ); /* IE6-9 */
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.imgLogo{
+    width: 100px;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding: 10px;
+    list-style: none;
+}
+.paginaActiva{
+
+    color:$colorBlanco;
+
+}
+a:hover{
+    color:$colorBlanco;
+}
+
+
+
+
+
+
