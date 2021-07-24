@@ -107,27 +107,14 @@ main {
   margin: 0 auto; }
 
 /* tienda */
-#tablaPrincipal {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 0 auto;
-  width: 300px; }
+.tienda{
+  display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: auto auto auto auto auto ;
+        grid-template-rows: auto auto auto auto auto ;
+}
 
-table {
-  text-align: center;
-  border: none; }
 
-th, td {
-  border: none;
-  padding: 20px; }
-
-thead {
-  background-color: #00FFFF; }
-
-.tienda {
-  color: #0000; }
 
 /* galeria */
 .GaleriaJugadores {
