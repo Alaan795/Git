@@ -64,11 +64,11 @@ li {
   list-style: none; }
 
 .paginaActiva {
-  color: #FFFFFF; 
+  color: #ff8000; 
 }
 
 a:hover {
-  color: #FFFFFF; }
+  color: #ff8000; }
 
 /* index */
 .imgParrafo {
@@ -103,16 +103,13 @@ main {
   text-align: center;
 }
 
-
-
-
 /* galeria */
 .GaleriaJugadores {
   width: 90px;
   max-width: 80vmax;
   margin: 20px auto;
   display: grid;
-  grid-template-columns: repeat("4,1fr");
+  grid-template-columns: repeat(4,1fr);
   grid-template-rows: repeat(2, auto);
   grid-template-areas: "falcao ferrao vaporaki stazzone"
  "gomez ricardinho bateria lozano";
