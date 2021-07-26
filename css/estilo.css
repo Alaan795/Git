@@ -71,13 +71,23 @@ a:hover {
   color: #ff8000; }
 
 /* index */
-.imgParrafo {
-  width: 150px; }
+.imgIndex {
+  width: 300px;
+ 
+}
+.index{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-areas: 
+  "futsal1 futsal2""futsal3";
+  justify-content: center;
+  margin: 20px;
+}
 
 .parrafo {
   font-family: 'Roboto', sans-serif;
   font-size: 3rem;
-  background: linear-gradient(to top, #00FFFF, #FFFFFF); }
+  background: linear-gradient(to top, #00FFFF, #000000); }
 
 .bienvenidos {
   font-size: 3rem; }
