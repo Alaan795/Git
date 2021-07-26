@@ -167,6 +167,8 @@ main {
 .pNosotros{
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
+  background-color: #FFFFFF;
+  color: #000000;
 }
 .imgNosotros2 {
   width: 300px; 
