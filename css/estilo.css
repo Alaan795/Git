@@ -102,6 +102,8 @@ main {
   width: 500px;
   margin: 0 auto; }
 
+
+
 /* tienda */
 .tienda{
   display: grid;
@@ -136,6 +138,11 @@ main {
 
 .GaleriaJugadores__GaleriaJugadores2 :hover {
   transform: scale(1.5, 1.5); }
+
+.imgGaleria{
+  width:250px;
+  height:250px;
+}
 
 /* cuenta-contacto */
 .enviado:hover {
