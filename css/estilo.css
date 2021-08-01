@@ -16,16 +16,37 @@ body {
 footer {
 
   background-color: #00FFFF;
-  position:relative;
-  width: 100%;
-  bottom:0;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color:#000000
+}
+.footer-content{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-
-  
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
+.redes{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.redes li{
+  margin: 0 10px;
+}
+.redes a{
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+.footer-bottom p{
+  font-size: 14px;
+}
 .footer__socialImg {
     width: 24px; 
 }
