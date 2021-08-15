@@ -1,20 +1,21 @@
 /* cuenta-contacto */
 .enviado:hover {
-    border-color: #FFFFFF;
-    color: #FFFFFF;
-    background-color: #000000; }
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  background-color: #000000; }
+
+.registrate{
+  text-align: center;
+  background-color: #808080;
+  margin:20px;
   
-  .registrate{
-    text-align: center;
-    background-color: #808080;
-    
-  }
-  .consulta{
-    text-align: center;
-  }
-  .cContacto{
-    background-color: #808080;
-  }
-  .TituloContacto{
-    color: #FFFFFF;
-  }
+}
+.cContacto{
+  text-align: center;
+  background-color: #808080;
+  margin:20px;
+}
+.TituloContacto{
+  color: #FFFFFF;
+  text-align: center;
+}
