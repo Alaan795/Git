@@ -120,8 +120,13 @@ main {
         grid-template-columns: auto auto auto auto auto ;
         grid-template-rows: auto auto auto auto auto ;
         background-color: #FFFFFF;
-        
-        
+        margin:20px
+}
+
+.boton:hover{
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  background-color: #000000; 
 }
 
 .TituloTienda{
@@ -132,6 +137,7 @@ section, article, div .tamaño{
   width:200;
   height: 200;
 }
+
 /* galeria */
 .GaleriaJugadores {
   width: 90px;
@@ -152,7 +158,8 @@ section, article, div .tamaño{
   justify-content: center; }
 
 .GaleriaJugadores__GaleriaJugadores2 :hover {
-  transform: scale(1.5, 1.5); }
+  transform: scale(1.1, 1.1); 
+}
 
 .imgGaleria{
   width:250px;
@@ -168,6 +175,7 @@ section, article, div .tamaño{
 .registrate{
   text-align: center;
   background-color: #808080;
+  margin:20px;
   
 }
 .consulta{
@@ -175,10 +183,12 @@ section, article, div .tamaño{
 }
 .cContacto{
   background-color: #808080;
+  margin:20px;
 }
 .TituloContacto{
   color: #FFFFFF;
 }
+
 
 /*Nosotros*/
 
