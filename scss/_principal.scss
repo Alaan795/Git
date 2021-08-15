@@ -10,7 +10,7 @@ body {
 
 
 /* footer */
-footer {
+footer{
 
     background-color: #00FFFF;
     position:fixed;
@@ -19,14 +19,12 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
   
-    
-  }
-  
-  .footer__socialImg {
+.footer__socialImg {
       width: 24px; 
-  }
-  .footer__social {
+}
+.footer__social{
       display: inline-block; 
   }
   
